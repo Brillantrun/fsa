@@ -1,0 +1,114 @@
+<!-- start Simple Custom CSS and JS -->
+<style type="text/css">
+/* Ajouter votre code CSS ici.
+                     
+Par exemple:
+.exemple {
+    color: red;
+}
+
+Pour améliorer vos connaissances en CSS, visitez http://www.w3schools.com/css/css_syntax.asp
+
+Fin du commentaire */ 
+
+/*Navigation between slides*/
+
+/*.sliders--container .customSlides:hover{
+	background-color: #FF7A09;
+}*/
+
+.nextend-arrow-next, .nextend-arrow-previous{
+	position: absolute !important;
+	bottom: 170px !important;
+}
+
+.nextend-arrow-next{
+	margin-right: 740px !important;
+}
+
+.nextend-arrow-previous{
+	margin-left: 740px !important;
+}
+.elementor-element-82d68e6{
+	padding: 0;
+}
+
+.slider--1 .n2-ss-layer-col{
+	border-top-left-radius: 15px !important;
+    border-bottom-left-radius: 15px !important;
+}
+
+.slider--4 .n2-ss-layer-col{
+	border-top-right-radius: 15px !important;
+    border-bottom-right-radius: 15px !important;
+}
+
+.customSlides{
+	margin-left: 0 !important;
+	margin-right: 0 !important;
+}
+
+.nextend-bullet-bar{
+	width: 1230px !important;
+    display: flex !important;
+    flex-direction: row !important;
+    justify-content: space-between !important;
+    margin-top: -110px !important;
+}
+
+div#n2-ss-2 .nextend-bullet-bar .n2-bullet{
+	width: 150px;
+	height: 50px;
+	background: none;
+}
+
+div#n2-ss-2 .n-uc-182de963e89b3{
+	max-width:25% !important;
+}
+
+div#n2-ss-2 .n-uc-1f1da489b3fb9{
+	max-width:100% !important;
+	width:80% !important;
+}
+
+   .parallelogram-right-border {
+        position: relative;
+        width: 200px;
+        border: 2px solid black;
+    }
+
+.elementor-active .parallelogram-right-border{
+	border-color: #FF7A09 !important;
+	color: #FF7A09;
+}
+
+.elementor-active .parallelogram-right-border:before {
+	background-color: #FF7A09 !important;
+}
+    .parallelogram-right-border:hover {
+        color: #FF7A09;
+        border-color: #FF7A09; /* Change border color on hover */
+    }
+
+    .parallelogram-right-border:hover::before {
+        background-color: #FF7A09; /* Change pseudo-element background color on hover */
+    }
+
+    .parallelogram-right-border::before {
+        content: "";
+        position: absolute;
+        top: -2px;
+        right: -10px;
+        width: 20px;
+        height: 114%;
+        background-color: black;
+        transform: skewX(-20deg);
+    }
+
+.n2-ss-layer-col{
+	padding-left: 10px !important;
+}
+
+/*FF7A09FF*
+</style>
+<!-- end Simple Custom CSS and JS -->
